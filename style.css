@@ -1,0 +1,42 @@
+#wioska {
+    border: 10px solid brown;
+    float: left;
+}
+
+#contener {
+    background-color: #B87333;
+    float: left;
+    width: 550px;
+    height: 370px;
+    text-align: center;
+}
+
+#gildia {
+    float: left;
+    border: 2px solid brown;
+    width: 100px;
+}
+
+#level {
+    float: left;
+    border: 2px solid brown;
+    width: 100px;
+}
+
+#nick {
+    float: left;
+    border: 2px solid brown;
+    width: 100px;
+}
+
+#Drewno {
+    float: left;
+    border: 2px solid brown;
+    width: 100px;
+}
+
+#metal {
+    float: left;
+    border: 2px solid brown;
+    width: 100px;
+}

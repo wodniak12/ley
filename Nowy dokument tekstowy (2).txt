@@ -1,0 +1,63 @@
+nawi:
+<header>
+
+        <h1 class="logo">Gildie</h1>
+
+        <nav id="topnav">
+
+            <ul class="menu">
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Gildia</a></li>
+                <li><a href="#">Surowce</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+styl:
+#topnav {
+    background-color: #B87333;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    min-height: 38px;
+    line-height: 200%;
+}
+
+.menu>li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px dashed #0a2b42;
+}
+
+.menu>li:first-child {
+    border-left: 1px dashed #0a2b42;
+}
+
+.menu a {
+    color: rgb(65, 31, 0);
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #0a2b42;
+}
+
+h1.logo {
+    font-size: 44px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
