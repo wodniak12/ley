@@ -20,6 +20,8 @@ class GameManager
         $this->a = array();
         $this->s = new Scheduler($this);
         $this->t = time();
+        $this->l->log("Łącze z bazą danych...", 'gameManager', 'info');
+        
 
     }
     public function deltaTime() : int
